@@ -1,0 +1,21 @@
+canvas{
+    left:50%;
+    position: absolute;
+    transform: translateX(-50%);
+    border: 2px solid black;
+}
+#background-canvas{
+    z-index: 0;
+}
+#foreground-canvas{
+    z-index: 1;
+}
+
+.canvas-container{
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+.no-cursor:hover{
+    cursor: none;
+}

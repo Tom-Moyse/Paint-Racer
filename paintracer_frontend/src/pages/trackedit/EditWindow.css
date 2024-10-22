@@ -1,0 +1,17 @@
+#BrushSelector{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    width: 100%;
+}
+.selected{
+    outline: 4px auto -webkit-focus-ring-color;
+}
+.canvas-container{
+    margin: auto;
+}
+
+#BrushTypeDiv label, #BrushTypeDiv input{
+    display: inline-block;
+    vertical-align: bottom;
+}

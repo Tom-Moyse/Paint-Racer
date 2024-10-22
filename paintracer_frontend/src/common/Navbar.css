@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #1a1a1a;
+    border-radius: 0 0 30px 30px;
+    width: fit-content;
+    padding: 10px 20px 15px;
+    display: block;
+    transform: translateY(-80%);
+    transition: ease-in-out 0.3s;
+  }
+
+  .hoverCapture:hover .navbar{
+    transform: translateY(0);
+  }
+  
+  .hoverCapture{
+    width: fit-content;
+    margin: auto;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar a{
+    margin: 0 15px;
+    color: white;
+  }
